@@ -1,0 +1,50 @@
+{
+  "provider": "charter",
+  "name": "Charter Communications",
+  "blogUrl": "https://corporate.charter.com/newsroom",
+  "lastFetched": "2026-06-13",
+  "posts": [
+    {
+      "title": "Spectrum Deploys AI Infrastructure at the Network Edge Using NVIDIA AI Grid",
+      "url": "https://corporate.charter.com/newsroom/spectrum-deploys-ai-infrastructure-at-network-edge-using-nvidia-ai-grid",
+      "description": "Spectrum is demonstrating enterprise-level, low-latency, remote NVIDIA AI infrastructure use cases built on NVIDIA RTX6000 PRO Blackwell Server Edition technology and a distributed AI Grid.",
+      "published": "2026-03-17",
+      "tags": ["AI", "Edge Computing", "NVIDIA", "Network", "Enterprise"]
+    },
+    {
+      "title": "Charter Communications and CableLabs Launch Bryte IQ NaaS Platform",
+      "url": "https://corporate.charter.com/newsroom/charter-and-cablelabs-launch-bryte-iq-network-as-a-service-platform",
+      "description": "Charter Communications Inc., in collaboration with CableLabs, has launched Bryte IQ, a Network-as-a-Service (NaaS) platform for Charter's wired and wireless networks.",
+      "published": "2024-09-24",
+      "tags": ["NaaS", "CAMARA", "API", "Network", "CableLabs", "Bryte IQ"]
+    },
+    {
+      "title": "Charter's Executive Vice President and Chief Commercial Officer Adam Ray to Oversee Spectrum Enterprise",
+      "url": "https://corporate.charter.com/newsroom/charter-evp-and-chief-commercial-officer-adam-ray-to-oversee-spectrum-enterprise",
+      "description": "Charter Communications has announced that Adam Ray, Executive Vice President and Chief Commercial Officer, will oversee the nearly $3 billion Spectrum Enterprise operation in addition to his current responsibilities.",
+      "published": "2024-11-05",
+      "tags": ["Spectrum Enterprise", "Leadership", "B2B"]
+    },
+    {
+      "title": "Spectrum Enterprise Announces National Availability of 100 Gigabit Ultra-High Speed Data Services",
+      "url": "https://corporate.charter.com/newsroom/spectrum-enterprise-100-gigabit-ultra-high-speed-data-services",
+      "description": "Spectrum Enterprise has announced availability of Ultra-High Speed Data services across its national fiber network that deliver speeds of 100 gigabits per second (Gbps) for a range of data transport solutions.",
+      "published": "2023-01-01",
+      "tags": ["Spectrum Enterprise", "Fiber", "100 Gbps", "Network", "Data Services"]
+    },
+    {
+      "title": "Spectrum Enterprise Enhances Cybersecurity Offerings to Help Businesses More Easily Protect Their Digital Infrastructure",
+      "url": "https://corporate.charter.com/newsroom/spectrum-enterprise-enhances-cybersecurity-offerings",
+      "description": "Spectrum Enterprise has added Secure Access with Cisco Duo and Cloud Security with Cisco+ Secure Connect to its portfolio of cybersecurity products.",
+      "published": "2023-05-08",
+      "tags": ["Spectrum Enterprise", "Cybersecurity", "Cisco", "Enterprise Security"]
+    },
+    {
+      "title": "Spectrum Enterprise Introduces Unified Communications for Hospitality Solution",
+      "url": "https://corporate.charter.com/newsroom/spectrum-enterprise-introduces-unified-communications-for-hospitality-solution",
+      "description": "Spectrum Enterprise has introduced Unified Communications (UC) for Hospitality to help hotels enhance guest experiences and operational efficiencies.",
+      "published": "2022-01-01",
+      "tags": ["Spectrum Enterprise", "Unified Communications", "Hospitality", "UC"]
+    }
+  ]
+}

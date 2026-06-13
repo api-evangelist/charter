@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.charter.com/#organization",
+  "name": "Charter Communications",
+  "alternateName": "Spectrum",
+  "description": "Charter Communications, operating under the Spectrum brand, is the second-largest cable operator in the United States serving more than 32 million customers across 41 states. Charter offers REST APIs for enterprise network provisioning, service account management, broadband diagnostics, customer support ticket automation, and circuit serviceability.",
+  "url": "https://www.spectrum.com",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://corporate.charter.com",
+    "https://enterprise.spectrum.com",
+    "https://github.com/charter",
+    "https://www.linkedin.com/company/charter-communications",
+    "https://x.com/CharterNewsroom"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Enterprise Support",
+    "url": "https://enterprise.spectrum.com/support.html"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Charter Communications API Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Spectrum Enterprise Client API",
+        "description": "B2B REST API access for enterprise clients to integrate with the Spectrum Enterprise portal including ticket management, circuit retrieval, and serviceability lookups.",
+        "url": "https://enterprise.spectrum.com/support/faqs/api-faqs.html"
+      },
+      {
+        "@type": "Offer",
+        "name": "Bryte IQ Network-as-a-Service API",
+        "description": "NaaS developer platform built on CAMARA framework providing APIs for connected device visibility, CPE management, home network optimization, and subscriber service controls.",
+        "url": "https://corporate.charter.com/newsroom/charter-and-cablelabs-launch-bryte-iq-network-as-a-service-platform"
+      },
+      {
+        "@type": "Offer",
+        "name": "Spectrum Carrier Serviceability API",
+        "description": "Enables carrier partners to submit address serviceability requests to determine Charter network coverage via single-address and batch lookups.",
+        "url": "https://enterprise.spectrum.com/support.html"
+      }
+    ]
+  }
+}

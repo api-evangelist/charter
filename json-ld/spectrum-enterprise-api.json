@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebAPI",
+  "@id": "https://apis.spectrum.net/#spectrum-enterprise-api",
+  "name": "Spectrum Enterprise Client API",
+  "description": "The Spectrum Enterprise Open API provides B2B REST API access for enterprise clients to integrate directly with the Spectrum Enterprise portal. It supports automated ticket creation and management, circuit and site account retrieval, network alarm submission, and serviceability lookups. Authentication uses OAuth 2.0 client credentials via the PiNxt onboarding platform.",
+  "url": "https://enterprise.spectrum.com/support/faqs/api-faqs.html",
+  "provider": {
+    "@type": "Organization",
+    "name": "Charter Communications",
+    "url": "https://www.spectrum.com"
+  },
+  "documentation": "https://enterprise.spectrum.com/content/dam/spectrum/enterprise/en/pdfs/support/SE-B2B-API-Guide-v1.905.pdf",
+  "termsOfService": "https://enterprise.spectrum.com/legal/terms-and-conditions/customer-api-terms-and-conditions-for-enterprise-services.html",
+  "category": [
+    "Telecommunications",
+    "Enterprise",
+    "B2B Integration",
+    "Ticketing",
+    "Circuit Management",
+    "Network Alarms"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "category": "Enterprise API",
+    "url": "https://enterprise.spectrum.com/support/faqs/api-faqs.html"
+  },
+  "serviceType": "REST API",
+  "applicationCategory": "BusinessApplication",
+  "featureList": [
+    "Automated ticket creation and management",
+    "Circuit and site account retrieval",
+    "Network alarm submission",
+    "Serviceability lookups",
+    "OAuth 2.0 client credentials authentication"
+  ]
+}
