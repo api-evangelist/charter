@@ -1,0 +1,54 @@
+name: Charter Communications API FinOps
+description: Charter Communications API access costs are embedded within enterprise service contracts and partner agreements rather than metered consumption-based billing. The Spectrum Enterprise Client API is provided as part of Spectrum Enterprise service agreements. The Bryte IQ NaaS developer platform offers access through application registration with pricing tied to business partnerships. There is no publicly available self-service metered billing model or pay-per-call pricing as of June 2026.
+url: https://enterprise.spectrum.com/legal/terms-and-conditions/customer-api-terms-and-conditions-for-enterprise-services.html
+created: '2026-06-13'
+modified: '2026-06-13'
+costModel:
+  type: Contract-Based / Enterprise Agreement
+  selfService: false
+  payPerCall: false
+  publicPricing: false
+  negotiated: true
+  notes: API access is bundled with Spectrum Enterprise service subscriptions or negotiated as part of carrier/partner agreements. No standalone API SKU or public pricing page exists.
+
+apis:
+  - name: Spectrum Enterprise Client API
+    costModel: Bundled with Spectrum Enterprise service contract
+    billingUnit: Not applicable (contract-based)
+    freeAccess: false
+    trialAvailable: false
+    onboarding: PiNxt platform registration; credentials issued upon approval
+    support: DL-Ent-Spectrum-API-Support
+    termsURL: https://enterprise.spectrum.com/legal/terms-and-conditions/customer-api-terms-and-conditions-for-enterprise-services.html
+    costDrivers:
+      - Enterprise internet or voice service subscription required
+      - API access scoped to contracted circuits and accounts
+      - No incremental per-call charges publicly documented
+
+  - name: Carrier Serviceability API
+    costModel: Carrier partner agreement
+    billingUnit: Not applicable (partner agreement)
+    freeAccess: false
+    trialAvailable: false
+    onboarding: Carrier partner application and agreement execution
+    costDrivers:
+      - Requires active carrier partnership with Charter
+      - Batch serviceability usage may be subject to volume commitments in partner SLA
+
+  - name: Bryte IQ NaaS API
+    costModel: Developer registration; business partnership for production access
+    billingUnit: Not publicly disclosed
+    freeAccess: Developer sandbox potentially available upon registration
+    trialAvailable: Unknown; registration-based
+    onboarding: https://corporate.charter.com/newsroom/charter-and-cablelabs-launch-bryte-iq-network-as-a-service-platform
+    costDrivers:
+      - Built on CAMARA framework; pricing model aligned with telco NaaS industry norms
+      - Production access likely requires commercial partnership agreement
+      - Early partnerships (e.g., Onboard for multifamily properties) suggest B2B commercial model
+
+finOpsRecommendations:
+  - Monitor API usage through organization-scoped Client ID dashboards
+  - Ensure circuit and account scope matches contracted services to avoid unauthorized access flags
+  - For Bryte IQ, negotiate volume and feature tiers during partnership onboarding
+  - Review API Terms and Conditions annually as part of enterprise contract renewal cycles
+  - Contact Charter enterprise account team for API-specific cost allocations within service contracts

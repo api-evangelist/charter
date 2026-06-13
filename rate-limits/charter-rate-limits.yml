@@ -1,0 +1,41 @@
+name: Charter Communications API Rate Limits
+description: Charter Communications does not publish explicit public rate limit specifications for its enterprise APIs. Rate limiting is enforced at the API Gateway layer using the OAuth 2.0 Client ID to scope and throttle requests per organization. Specific limits are communicated during enterprise onboarding or through the PiNxt platform terms. The API Gateway validates access tokens, scopes requests to the client organization, and may enforce throttling based on contractual terms.
+url: https://enterprise.spectrum.com/legal/terms-and-conditions/customer-api-terms-and-conditions-for-enterprise-services.html
+created: '2026-06-13'
+modified: '2026-06-13'
+rateLimits:
+  - api: Spectrum Enterprise Client API
+    baseURL: https://apis.spectrum.net
+    authEndpoint: https://apis.spectrum.net/auth/oauth/v2/token
+    throttling:
+      description: Rate limiting enforced at the API Gateway per Client ID. Specific numeric limits not publicly disclosed; governed by enterprise service agreement.
+      enforcement: Client ID scoping at API Gateway layer
+      publiclyDocumented: false
+    tokenLifetime:
+      description: OAuth 2.0 access tokens are short-lived; clients must request new tokens using their Client ID and Secret.
+      type: Bearer Token
+      refreshMethod: Re-request via POST to token endpoint with client credentials
+    notes:
+      - All requests scoped to the requesting organization's Client ID
+      - Exceeding limits or misuse governed by API Terms and Conditions
+      - Contact DL-Ent-Spectrum-API-Support for limit inquiries
+
+  - api: Carrier Serviceability API
+    baseURL: https://eli-ws-carrier.charter.com
+    throttling:
+      description: Supports both single-address and batch address requests. Batch size limits and per-minute/per-day call limits are governed by carrier partner agreement terms and not publicly published.
+      enforcement: OAuth 2.0 token-scoped throttling
+      publiclyDocumented: false
+    notes:
+      - Batch endpoint available for bulk address lookups
+      - Rate limits determined by carrier partner tier agreement
+
+  - api: Bryte IQ NaaS API
+    baseURL: https://bryteiq.spectrum.com
+    throttling:
+      description: CAMARA-compliant APIs; rate limits governed by developer tier and application registration terms. Specific limits not publicly disclosed as of June 2026.
+      enforcement: Per-application OAuth 2.0 credential scoping
+      publiclyDocumented: false
+    notes:
+      - CAMARA framework provides interoperability with other telco API implementations
+      - Rate limits communicated during developer onboarding

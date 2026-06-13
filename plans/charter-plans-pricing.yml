@@ -1,0 +1,45 @@
+name: Charter Communications API Plans and Pricing
+description: Charter Communications / Spectrum API access is provided through enterprise onboarding and partner agreements rather than self-service consumer tiers. The Spectrum Enterprise Client API requires registration via the PiNxt platform, which issues OAuth 2.0 client credentials (Client ID and Secret) upon approval. The Bryte IQ NaaS platform offers developer registration with application-based access. No public self-service pricing tiers have been published; pricing is negotiated as part of enterprise service agreements.
+url: https://enterprise.spectrum.com/support/faqs/api-faqs.html
+created: '2026-06-13'
+modified: '2026-06-13'
+plans:
+  - name: Spectrum Enterprise API Access
+    description: Access to the Spectrum Enterprise Client API (ticketing, circuit management, network alarms) requires enterprise onboarding via the PiNxt platform. Credentials are issued to approved enterprise clients under contractual terms. API usage is included as part of Spectrum Enterprise service agreements.
+    type: Enterprise
+    url: https://enterprise.spectrum.com/legal/terms-and-conditions/customer-api-terms-and-conditions-for-enterprise-services.html
+    access: By application / enterprise agreement
+    authentication: OAuth 2.0 Client Credentials (Client ID + Secret via PiNxt)
+    features:
+      - Automated ticket creation and management
+      - Circuit and site account retrieval
+      - Network alarm submission
+      - Serviceability lookups
+      - Swagger UI for API testing
+    support: DL-Ent-Spectrum-API-Support (email)
+    notes: Credentials scoped per organization; all data access limited to requesting client's own account
+
+  - name: Carrier Serviceability API Access
+    description: Carrier partner access for address-level serviceability lookups against Charter's network footprint. Requires carrier partner agreement and OAuth 2.0 credential issuance.
+    type: Partner
+    url: https://enterprise.spectrum.com/support.html
+    access: By carrier partner agreement
+    authentication: OAuth 2.0
+    features:
+      - Single-address serviceability requests
+      - Batch address serviceability requests
+      - Network coverage lookups
+
+  - name: Bryte IQ Developer Access
+    description: Developer platform access to Charter's CAMARA-based NaaS APIs for building third-party applications on top of Charter's wired and wireless networks. Launched September 2024. Requires account registration and application approval on the Bryte IQ developer portal.
+    type: Developer
+    url: https://corporate.charter.com/newsroom/charter-and-cablelabs-launch-bryte-iq-network-as-a-service-platform
+    access: Developer registration required
+    authentication: OAuth 2.0 / CAMARA-compliant
+    features:
+      - Connected device visibility
+      - CPE management and support
+      - Home network optimization
+      - Subscriber service controls
+      - Network quality APIs
+    notes: Built on Linux Foundation CAMARA framework for telco API interoperability; no public pricing published as of June 2026
