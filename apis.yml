@@ -1,7 +1,7 @@
 aid: charter
 name: Charter Communications
 description: Charter Communications, operating under the Spectrum brand, is the second-largest cable operator in the United States serving more than 32 million customers across 41 states. Charter offers REST APIs for enterprise network provisioning, service account management, broadband diagnostics, customer support ticket automation, and circuit serviceability. The Spectrum Enterprise Open API enables B2B integrations for ticketing, circuit management, and network operations. Charter's Bryte IQ platform, built on the Linux Foundation's CAMARA framework, provides NaaS (Network-as-a-Service) APIs enabling third-party developers to build services that interact with Charter's wired and wireless networks, including connected device visibility, CPE management, and home network support.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/charter/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -19,7 +19,7 @@ apis:
   - aid: charter:spectrum-enterprise-api
     name: Spectrum Enterprise Client API
     description: The Spectrum Enterprise Open API provides B2B REST API access for enterprise clients to integrate directly with the Spectrum Enterprise portal. It supports automated ticket creation and management, circuit and site account retrieval, network alarm submission, and serviceability lookups. Authentication uses OAuth 2.0 client credentials via the PiNxt onboarding platform.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://enterprise.spectrum.com/support/faqs/api-faqs.html
     baseURL: https://apis.spectrum.net
     tags:
@@ -37,7 +37,7 @@ apis:
   - aid: charter:bryte-iq-api
     name: Bryte IQ Network-as-a-Service API
     description: Bryte IQ is Charter Communications' NaaS developer platform built on the Linux Foundation's CAMARA open API framework. Launched in September 2024, it provides secure, privacy-friendly APIs for third-party developers to build services that interact with Charter's internet and mobile networks, including connected device visibility, CPE management, home network optimization, and subscriber service controls. Access is provided through an authenticated developer portal with application registration and onboarding.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://corporate.charter.com/newsroom/charter-and-cablelabs-launch-bryte-iq-network-as-a-service-platform
     baseURL: https://bryteiq.spectrum.com
     tags:
@@ -54,7 +54,7 @@ apis:
   - aid: charter:carrier-serviceability-api
     name: Spectrum Carrier Serviceability API
     description: The Spectrum Carrier Serviceability API enables carrier partners to submit address serviceability requests to determine Charter network coverage. Supports both single-address and batch address serviceability lookups. Authentication uses OAuth 2.0 and the API follows REST conventions with JSON payloads.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://enterprise.spectrum.com/support.html
     baseURL: https://eli-ws-carrier.charter.com
     tags:
