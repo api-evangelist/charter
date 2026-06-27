@@ -69,7 +69,7 @@ apis:
 common:
   - type: Website
     url: https://www.spectrum.com
-  - type: CorporateWebsite
+  - type: Website
     url: https://corporate.charter.com
   - type: EnterpriseWebsite
     url: https://enterprise.spectrum.com
