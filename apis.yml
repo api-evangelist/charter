@@ -67,6 +67,8 @@ apis:
         url: https://enterprise.spectrum.com/support.html
 
 common:
+  - type: DomainSecurity
+    url: security/charter-domain-security.yml
   - type: Website
     url: https://www.spectrum.com
   - type: Website
