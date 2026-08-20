@@ -39,6 +39,12 @@ apis:
       - Ticketing
       - Circuit Management
       - Network Alarms
+      - Authentication
+    tags_raw:
+      - Enterprise
+      - Ticketing
+      - Circuit Management
+      - Network Alarms
       - OAuth 2.0
     properties:
       - type: Documentation
@@ -53,6 +59,11 @@ apis:
     humanURL: https://enterprise.spectrum.com/support.html
     baseURL: https://eli-ws-carrier.charter.com
     tags:
+      - Serviceability
+      - Carrier
+      - Address Lookup
+      - Authentication
+    tags_raw:
       - Serviceability
       - Carrier
       - Address Lookup
