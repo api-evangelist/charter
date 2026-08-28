@@ -1,6 +1,17 @@
 aid: charter
 name: Charter Communications
 description: Charter Communications, operating under the Spectrum brand, is the second-largest cable operator in the United States serving more than 32 million customers across 41 states. Charter offers REST APIs for enterprise network provisioning, service account management, broadband diagnostics, customer support ticket automation, and circuit serviceability. The Spectrum Enterprise Open API enables B2B integrations for ticketing, circuit management, and network operations. Charter's Bryte IQ platform, built on the Linux Foundation's CAMARA framework, provides NaaS (Network-as-a-Service) APIs enabling third-party developers to build services that interact with Charter's wired and wireless networks, including connected device visibility, CPE management, and home network support.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
