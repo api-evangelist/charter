@@ -92,6 +92,13 @@ apis:
     tags:
       - NaaS
       - CAMARA
+      - Networks
+      - IoT
+      - Home Network
+      - Broadband
+    tags_raw:
+      - NaaS
+      - CAMARA
       - Network
       - IoT
       - Home Network
