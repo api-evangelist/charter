@@ -1,3 +1,12 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (dated 2026-06-13 by the file itself), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+# Coverage demoted 2026-10-07 (roadmap#942, PLAN.md Stage A): this file was written by an API Evangelist
+# sweep and names no billing unit, meters or pricing category read from the provider — it restates the
+# FinOps framework. It is `x-coverage: unmeasured`, and the FOCUS alignment it claimed has been removed.
+x-coverage: unmeasured
+method: generated
+generated: '2026-06-13'
 name: Charter Communications API FinOps
 description: Charter Communications API access costs are embedded within enterprise service contracts and partner agreements rather than metered consumption-based billing. The Spectrum Enterprise Client API is provided as part of Spectrum Enterprise service agreements. The Bryte IQ NaaS developer platform offers access through application registration with pricing tied to business partnerships. There is no publicly available self-service metered billing model or pay-per-call pricing as of June 2026.
 url: https://enterprise.spectrum.com/legal/terms-and-conditions/customer-api-terms-and-conditions-for-enterprise-services.html

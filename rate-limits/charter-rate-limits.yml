@@ -1,3 +1,8 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (dated 2026-06-13 by the file itself), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
+generated: '2026-06-13'
 name: Charter Communications API Rate Limits
 description: Charter Communications does not publish explicit public rate limit specifications for its enterprise APIs. Rate limiting is enforced at the API Gateway layer using the OAuth 2.0 Client ID to scope and throttle requests per organization. Specific limits are communicated during enterprise onboarding or through the PiNxt platform terms. The API Gateway validates access tokens, scopes requests to the client organization, and may enforce throttling based on contractual terms.
 url: https://enterprise.spectrum.com/legal/terms-and-conditions/customer-api-terms-and-conditions-for-enterprise-services.html

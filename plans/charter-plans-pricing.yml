@@ -1,3 +1,8 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (dated 2026-06-13 by the file itself), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
+generated: '2026-06-13'
 name: Charter Communications API Plans and Pricing
 description: Charter Communications / Spectrum API access is provided through enterprise onboarding and partner agreements rather than self-service consumer tiers. The Spectrum Enterprise Client API requires registration via the PiNxt platform, which issues OAuth 2.0 client credentials (Client ID and Secret) upon approval. The Bryte IQ NaaS platform offers developer registration with application-based access. No public self-service pricing tiers have been published; pricing is negotiated as part of enterprise service agreements.
 url: https://enterprise.spectrum.com/support/faqs/api-faqs.html
