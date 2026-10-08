@@ -48,3 +48,28 @@ plans:
       - Subscriber service controls
       - Network quality APIs
     notes: Built on Linux Foundation CAMARA framework for telco API interoperability; no public pricing published as of June 2026
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - negotiated
+  units: []
+  plans:
+  - name: Spectrum Enterprise API Access
+    access: enterprise
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Carrier Serviceability API Access
+    access: partner
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Bryte IQ Developer Access
+    access: free
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
